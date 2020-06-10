@@ -1,0 +1,29 @@
+###########################################################################
+#                                                                         #
+# KillCommands by BradTheGamer                                            #
+#                                                                         #
+# KillCommand Performs a certain command when                             #
+# a player kills another player                                           #
+#                                                                         #
+# This plugin was orignally created for https://Vexation.xyz              #
+#                                                                         #
+###########################################################################
+
+#Usable Variables:
+#  %PlayerKilled%  - The player who took died.
+#  %Prefix%  - The Prefix of the plugin.
+#  %Command%  - The Command ran.
+#  %Command2%  - The 2nd Command ran.
+#  %Killer% - The player who murdered the player.
+#  %Enabled% - shows if plugin is enabled or not
+
+
+#Command To Run on Server
+Command: addpoints %Killer% 10
+#2nd Command To Run on Server
+Command2: eco give %Killer% 50
+#Enable/Disable Plugin
+Enabled: true
+
+#Permission Nodes:
+#KillCommand.toggle - Allows A User to turn the plugin on/off

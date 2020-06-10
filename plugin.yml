@@ -1,0 +1,11 @@
+name: KillCommands
+main: com.BradTheGamer.KillCommands.Main
+version: 1.0
+author: [BradTheGamer]
+description: Runs 
+commands:
+  KC:
+    description: Enable or disable the KillCommand
+    usage: /KC
+    permission: KillCommands.toggle
+    permission-message: You don't have the permission KillCommand.toggle
